@@ -276,8 +276,8 @@
     /* border: 2px solid black; */
     width: 77%;
     margin: auto;
-    margin-top: 150px;
-    height: 320px;
+    margin-top: 100px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
 }
@@ -286,7 +286,7 @@
     /* border: 2px solid red; */
     background-color: rgb(106,124,62);
     width: 16%;
-    height: 198px;
+    height: 188px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -300,7 +300,7 @@
     /* border: 2px solid red; */
     background-color: green;
     width: 78%;
-    height: 198px;
+    height: 188px;
     background-color: white;
 }
 
@@ -308,5 +308,110 @@
     font-size: 48px;
     font-weight: 700;
 }
+
+#envisionimage{
+    /* border: 2px solid red; */
+    width: 77%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#envisionimage1{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/5646.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transition: all 1s; */
+}
+
+/* #envisionimage1 :hover{
+    transform: scale(1.2);
+} */
+
+#envisionimage2{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-cup-of-couple-6633450.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#envisionimage3{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/56456.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#latest{
+    width: 77%;
+    height: 1000px;
+    border: 2px solid red;
+    margin: auto;
+}
+
+#latestproject{
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#latestproject > :nth-child(1){
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#latestproject > :nth-child(2){
+    font-size: 18px;
+    line-height: 3;
+}
+
+#latestprojectimages{
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-between;
+}
+
+#latestdiv1{
+    border: 2px solid blue;
+    width: 48.7%;
+    height: 800px;
+}
+
+#latestdiv2{
+    border: 2px solid blue;
+    width: 48.7%;
+    height: 800px;
+}
+
+#latestprojectimage1{
+    width: 42%;
+    height: 200px;
+    float: right;
+    margin-right: 12px;
+}
+
+#latestprojectimage1 img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
 
 
