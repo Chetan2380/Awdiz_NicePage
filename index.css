@@ -160,30 +160,4 @@
     justify-content: space-between;
 }
 
-#firstdiv1{
-    border: 2px solid red;
-    height:612px;
-    padding-top: 50px;
-    padding-left: 170px;
-    /* width: 50%; */
-}
-
-#firstdiv1 img{
-    border: 2px solid red;
-    height: 560px;
-    /* width: 41%; */
-}
-
-#spaceplannig{
-    display: flex;
-    justify-content: space-between;
-}
-
-#repeat{
-    background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png");
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
-    border: 2px solid red;
-    width: 90%;
-    height: 60%;
 }
