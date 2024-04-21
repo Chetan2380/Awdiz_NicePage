@@ -38,6 +38,7 @@
             position: sticky;
             top: 0;
             left: 0;
+            z-index: 999;
             justify-content: space-between;
         }
 
@@ -167,11 +168,38 @@
             align-items: center;
             justify-content: space-between;
         }
+
+        #firstdiv1{
+            border: 2px solid red;
+            height:612px;
+            padding-top: 50px;
+            padding-left: 170px;
+            /* width: 50%; */
+        }
+
+        #firstdiv1 img{
+            border: 2px solid red;
+            height: 560px;
+            /* width: 41%; */
+        }
+
+        #spaceplannig{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #repeat{
+            background-image: url("https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png");
+            background-repeat: repeat-y;
+            background-repeat: repeat-x;
+            border: 2px solid red;
+            width: 90%;
+            height: 60%;
+        }
     </style>
 </head>
 <body>
     <div id="parentdiv">
-        <div id="Navbar">
             <div id="Navbar1">
                 <img src="https://csite.nicepage.com/Images/logo-w.png" alt="logo"/>
                 <div id="divices">
@@ -198,22 +226,26 @@
                     </div>
                 </div>
             </div>
-        </div>
+
 
         <div id="background">
             <div id="backbox"></div>
             <div id="frontbox"><p>INTERIOR STUDIO</p><br/><p>Home is not a place it's a feeling</p><br/><p>Image from Freepik</p></div>
         </div>
 
-        <!-- <div id="spaceplannig">
+        <div id="spaceplannig">
             <div id="firstdiv">
                 <div id="firstdiv1">
-                    <img src="" alt="">
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/73196f530b0d5473be31e0b9/gggg.jpg" alt="interior_design">
                 </div>
                 <div></div>
             </div>
-            <div id="seconddiv"></div>
-        </div> -->
+            <div id="seconddiv">
+                <div id="repeat">
+                    <img src="https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png"/>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>
