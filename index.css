@@ -272,7 +272,7 @@
     letter-spacing: 0.75px;
 }
 
-#envision{
+.envision{
     /* border: 2px solid black; */
     width: 77%;
     margin: auto;
@@ -282,7 +282,7 @@
     justify-content: space-between;
 }
 
-#firstenvision{
+.firstenvision{
     /* border: 2px solid red; */
     background-color: rgb(106,124,62);
     width: 16%;
@@ -296,7 +296,7 @@
     color: white;
 }
 
-#firstenvisiontext{
+.firstenvisiontext{
     /* border: 2px solid red; */
     background-color: green;
     width: 78%;
@@ -304,7 +304,7 @@
     background-color: white;
 }
 
-#firstenvisiontext p{
+.firstenvisiontext p{
     font-size: 48px;
     font-weight: 700;
 }
@@ -355,13 +355,13 @@
 
 #latest{
     width: 77%;
-    height: 1000px;
-    border: 2px solid red;
+    height: 950px;
+    /* border: 2px solid red; */
     margin: auto;
 }
 
 #latestproject{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 100px;
     display: flex;
@@ -381,37 +381,235 @@
 }
 
 #latestprojectimages{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     justify-content: space-between;
 }
 
 #latestdiv1{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 48.7%;
-    height: 800px;
+    height: 715px;
 }
 
 #latestdiv2{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 48.7%;
-    height: 800px;
+    height: 715px;
 }
 
 #latestprojectimage1{
-    width: 42%;
-    height: 200px;
+    width: 45%;
+    height: 230px;
     float: right;
-    margin-right: 12px;
+    margin-right: 16px;
 }
 
 #latestprojectimage1 img{
-    width: 250px;
-    height: 200px;
+    width: 270px;
+    height: 230px;
     object-fit: cover;
 }
 
+#latestprojectimage2{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 460px;
+    float: right;
+    margin-top: 22px;
+}
 
+#latestprojectimage2 img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
 
+#latestprojectimage3{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 460px;
+    float: right;
+}
 
+#latestprojectimage3 img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+#latestprojectimage4{
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 230px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 22px;
+}
+
+#latestprojectimage4 img{
+    width: 270px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.envision2{
+    /* border: 2px solid black; */
+    width: 77%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#combineimage{
+    /* border: 2px solid red; */
+    width: 77%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#combineimage1{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transition: all 1s; */
+}
+
+/* #combineimage1 :hover{
+    transform: scale(1.2);
+} */
+
+#combineimage2{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#combineimage3{
+    /* border: 2px solid black; */
+    width: 32.8%;
+    height: 382px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contactus{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: Roboto, sans-serif;
+}
+
+#contactgreenbox{
+    /* border: 2px solid black; */
+    width: 100%;
+    height:230px;
+    background-color: rgb(202,209,182);
+    margin-top: 150px;
+}
+
+#contactimagebox{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 33%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 294px;
+}
+
+#contactname{
+    /* border: 2px solid yellow; */
+    height: 75%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    left: 290px;
+    top: 70px;
+    box-shadow: 10px 10px 10px rgb(201,201,201);
+}
+
+#maincontact{
+    /* border: 2px solid purple; */
+    margin: 30px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#maincontact p{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#maincontact input{
+    width: 100%;
+    height: 10%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#maincontact button{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(107,126,60);
+    font-weight: 700;
+    color: white;
+}
+
+#maincontact button:hover{
+    background-color: black;
+}
+
+#maincontact textarea{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+}
+
+#imagefromfreepik{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagefromfreepik p{
+    font-size: 18px;
+}
+
+#footer{
+    border: 2px solid red;
+    background-color: rgb(51,51,51);
+    width: 100%;
+    height: 380px;
+}
 
