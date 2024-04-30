@@ -5,7 +5,504 @@
     box-sizing: border-box;
 }
 
+#parentdiv{
+    width: 100%;
+    /* border: 2px solid rgb(205, 198, 198); */
+    height: 4066px;
+    margin: auto;
+}
 
+#Navbar1{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+#Navbar{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 620px;
+    display: flex;
+    position: relative;
+}
+
+#burger{
+    /* border: 2px solid red; */
+    width: 42%;
+    height: 100%;
+    background-image: url(../Nicepage_03/images/pexelsphoto3659861.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#mfei{
+    /* border: 2px solid red; */
+    width: 16%;
+    height: 100%;
+    background-color: rgb(252,193,51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mfei p{
+    font-size: 50px;
+    font-weight: 750;
+    letter-spacing: 8px;
+}
+
+#chickensalad{
+    /* border: 2px solid red; */
+    width: 42%;
+    height: 100%;
+    background-image: url(../Nicepage_03/images/pexelsphoto3659862.jpeg);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+#minnav{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+
+#logo{
+    /* border: 2px solid red; */
+    height: 68%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+#logo img{
+    height: 65%;
+}
+
+#home{
+    /* border: 2px solid red; */
+    width: 5%;
+    margin-right: 190px;
+}
+
+#home p{
+    color: white;
+    font-size: 16px;
+}
+
+#home i{
+    display: none;
+}
+
+#healthysmoothie{
+    /* border: 2px solid red; */
+    background-color: rgb(41,41,48);
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#twentyfive{
+    /* border: 2px solid red; */
+    width: 25%;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+#twentyfive p{
+    font-size: 49px;
+    font-weight: 750;
+    color: white;
+}
+
+#chickenroll{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 75%;
+}
+
+#chickenroll img{
+    width: 100%;
+    height: 100%;
+}
+
+#sip{
+    /* border: 2px solid red; */
+    background-color: rgb(252,193,51);
+    width: 25%;
+    height: 100%;
+    /* margin-top: 6px; */
+    font-size: 19px;
+    font-weight: 750;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    margin-right: 140px;
+}
+
+#sip p{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#background{
+    /* border: 2px solid red; */
+    background-image: url(../Nicepage_03/images/pexelsphoto1639563.jpeg);
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#breakfastidea{
+    border: 10px solid rgb(252,193,51);
+    background-color: black;
+    width: 23%;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: 190px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#breakfastidea > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+
+#breakfastidea > p:nth-child(2){
+    font-weight: 750;
+    padding-bottom: 25px;
+    line-height: 1.6;
+}
+
+#breakfastidea > p:nth-child(3){
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+
+#healthyrecipes{
+    /* border: 5px solid rgb(252,193,51); */
+    background-color: rgb(252,193,51);
+    width: 23%;
+    height: 340px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#healthyrecipes > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+
+#healthyrecipes > p:nth-child(2){
+    font-weight: 750;
+    padding-bottom: 25px;
+    line-height: 1.6;
+}
+
+#healthyrecipes > p:nth-child(3){
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+
+#background2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(41,41,48);
+    display: flex;
+    justify-content: space-between;
+}
+
+#freshmenu{
+    /* border: 2px solid red; */
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+#foodcafe{
+    color: white;
+    width: 87.4%;
+    height: 220px;
+}
+
+#foodcafe > p:nth-child(1){
+    font-size: 45px;
+    font-weight: 750;
+    padding-bottom: 15px;
+}
+
+#foodcafe > p:nth-child(2){
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#fresh{
+    /* border: 2px solid red; */
+}
+
+#social{
+    /* border: 2px solid red; */
+    font-size: 25px;
+    color: rgb(252,193,51);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ourmenu p{
+    text-align: center;
+    color: white;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+#specials p{
+    text-align: center;
+    color: white;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+#specials{
+    margin-left: 15px;
+}
+
+#drinks p{
+    text-align: center;
+    color: white;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+#drinks{
+    margin-right: 30px;
+}
+
+#specialsdrinks{
+    /* border: 2px solid red; */
+    width: 36%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#background3{
+    background-image: url(../Nicepage_03/images/pexelsphoto842142.jpeg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#tastiestfood{
+    width: 44%;
+    color: white;
+    float: right;
+    margin-right: 200px;
+    margin-top: 520px;
+}
+
+#tastiestfood > p:nth-child(1) {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 2.4;
+}
+
+#tastiestfood > p:nth-child(2) {
+    font-size: 16px;
+    /* font-weight: 800; */
+    width: 99%;
+    float: right;
+    text-align: right;
+    line-height: 1.6;
+}
+
+#background4{
+    width: 100%;
+    height: 990px;
+    background-color: rgb(41,41,48);
+}
+
+#fullplatereviews{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+#fullplate{
+    border: 2px solid red;
+    width: 50%;
+    height: 100%;
+    background-image: url(../Nicepage_03/images/pexelsphoto2641886.jpeg);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+#reviews{
+    width: 26%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#reviews >p:nth-child(1){
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+#reviews >p:nth-child(3){
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+#reviews >p:nth-child(4){
+    font-size: 20px;
+    line-height: 2.2;
+}
+
+#reviews > i{
+    font-size: 53px;
+    color: rgb(252,193,51);
+    line-height: 1.5;
+}
+
+#congingus{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact{
+    width: 23%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+#contact > p:nth-child(1){
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#contact > p:nth-child(2){
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+#gingerbread{
+    width: 17%;
+    height: 74%;
+    background-image: url(../Nicepage_03/images/pexelsphoto262945.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 10px;
+}
+
+#contactus{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(252,193,51);
+    float: right;
+    margin-right: 150px;
+}
+
+#contactus > p:nth-child(1){
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 2.1;
+    text-align: center;
+    margin-top: 100px;
+    padding-right: 80px;
+}
+
+#contactus > p:nth-child(2){
+    text-align: center;
+    line-height: 1.7;
+    padding-right: 80px;
+}
+
+#contactus > p:nth-child(3){
+    text-align: center;
+    line-height: 1.7;
+    padding-right: 80px;
+}
+
+#contactus > p:nth-child(4){
+    text-align: center;
+    line-height: 1.7;
+    padding-right: 80px;
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51,51,51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a{
+    color: rgb(158,192,201);
+}
+
+@media screen and (min-width:1040px) and (max-width:1050px) {
+    
 #parentdiv{
     width: 1040px;
     border: 2px solid rgb(205, 198, 198);
@@ -490,6 +987,7 @@
 #footer a{
     color: rgb(158,192,201);
 }
+}  
 
 @media screen and (min-width: 830px) and (max-width: 1039px) {
     #parentdiv{
