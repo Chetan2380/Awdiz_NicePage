@@ -9,7 +9,7 @@
 #parentdiv{
     width: 1040px;
     border: 2px solid rgb(205, 198, 198);
-    height: 5305px;
+    height: 4066px;
     margin: auto;
 }
 
@@ -326,11 +326,176 @@
     align-items: center;
 }
 
+#background3{
+    background-image: url(../Nicepage_03/images/pexelsphoto842142.jpeg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#tastiestfood{
+    width: 63.5%;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 560px;
+}
+
+#tastiestfood > p:nth-child(1) {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#tastiestfood > p:nth-child(2) {
+    font-size: 16px;
+    /* font-weight: 800; */
+    width: 99%;
+    float: right;
+    text-align: right;
+}
+
+#background4{
+    width: 100%;
+    height: 924px;
+    background-color: rgb(41,41,48);
+}
+
+#fullplatereviews{
+    width: 100%;
+    height: 56%;
+    display: flex;
+}
+
+#fullplate{
+    border: 2px solid red;
+    width: 50%;
+    height: 100%;
+    background-image: url(../Nicepage_03/images/pexelsphoto2641886.jpeg);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+#reviews{
+    width: 38%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#reviews >p:nth-child(1){
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+#reviews >p:nth-child(3){
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+#reviews >p:nth-child(4){
+    font-size: 20px;
+    line-height: 2.2;
+}
+
+#reviews > i{
+    font-size: 53px;
+    color: rgb(252,193,51);
+    line-height: 1.5;
+}
+
+#congingus{
+    width: 100%;
+    height: 44%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact{
+    width: 23%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+#contact > p:nth-child(1){
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#contact > p:nth-child(2){
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+#gingerbread{
+    width: 25%;
+    height: 70%;
+    background-image: url(../Nicepage_03/images/pexelsphoto262945.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 10px;
+}
+
+#contactus{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(252,193,51);
+    float: right;
+    margin-right: 40px;
+}
+
+#contactus > p:nth-child(1){
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 2.1;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contactus > p:nth-child(2){
+    text-align: center;
+    line-height: 1.7;
+}
+
+#contactus > p:nth-child(3){
+    text-align: center;
+    line-height: 1.7;
+}
+
+#contactus > p:nth-child(4){
+    text-align: center;
+    line-height: 1.7;
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51,51,51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a{
+    color: rgb(158,192,201);
+}
+
 @media screen and (min-width: 830px) and (max-width: 1039px) {
     #parentdiv{
         width: 830px;
         border: 2px solid rgb(205, 198, 198);
-        height: 5305px;
+        height: 4020px;
         margin: auto;
     }
     
@@ -660,6 +825,171 @@
         align-items: center;
         margin-bottom: 80px;
     }
+
+    #background3{
+        background-image: url(../Nicepage_03/images/pexelsphoto842142.jpeg);
+        width: 100%;
+        height: 810px;
+        background-size: cover;
+        background-position: 88% 50%;
+    }
+    
+    #tastiestfood{
+        width: 80%;
+        color: white;
+        float: right;
+        margin-right: 40px;
+        margin-top: 620px;
+    }
+    
+    #tastiestfood > p:nth-child(1) {
+        font-size: 45px;
+        font-weight: 800;
+    }
+    
+    #tastiestfood > p:nth-child(2) {
+        font-size: 16px;
+        /* font-weight: 800; */
+        width: 99%;
+        float: right;
+        text-align: right;
+    }
+
+    #background4{
+        width: 100%;
+        height: 800px;
+        background-color: rgb(41,41,48);
+    }
+    
+    #fullplatereviews{
+        width: 100%;
+        height: 56%;
+        display: flex;
+    }
+    
+    #fullplate{
+        border: 2px solid red;
+        width: 50%;
+        height: 100%;
+        background-image: url(../Nicepage_03/images/pexelsphoto2641886.jpeg);
+        background-size: cover;
+        background-position: 50% 100%;
+    }
+    
+    #reviews{
+        width: 38%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #reviews >p:nth-child(1){
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 2.2;
+    }
+    
+    #reviews >p:nth-child(3){
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.7;
+    }
+    
+    #reviews >p:nth-child(4){
+        font-size: 20px;
+        line-height: 2.2;
+    }
+    
+    #reviews > i{
+        font-size: 53px;
+        color: rgb(252,193,51);
+        line-height: 1.5;
+    }
+    
+    #congingus{
+        width: 100%;
+        height: 44%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #contact{
+        width: 23%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    
+    #contact > p:nth-child(1){
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    
+    #contact > p:nth-child(2){
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    #gingerbread{
+        width: 22%;
+        height: 60%;
+        background-image: url(../Nicepage_03/images/pexelsphoto262945.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-left: 10px;
+    }
+    
+    #contactus{
+        width: 30%;
+        height: 100%;
+        background-color: rgb(252,193,51);
+        float: right;
+        margin-right: 40px;
+    }
+    
+    #contactus > p:nth-child(1){
+        font-size: 33px;
+        font-weight: bold;
+        line-height: 2.1;
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    #contactus > p:nth-child(2){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #contactus > p:nth-child(3){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #contactus > p:nth-child(4){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(51,51,51);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #footer a{
+        color: rgb(158,192,201);
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -904,6 +1234,283 @@
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 3px;
+    }
+
+    #background2{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 950px;
+        background-color: rgb(41,41,48);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #freshmenu{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+        margin-top: 130px;
+        flex-direction: column;
+    }
+    
+    #foodcafe{
+        color: white;
+        width: 65%;
+        height: 300px;
+        text-align: center;
+    }
+    
+    #foodcafe > p:nth-child(1){
+        font-size: 50px;
+        font-weight: 750;
+        padding-bottom: 30px;
+    }
+    
+    #foodcafe > p:nth-child(2){
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    
+    #fresh{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #social{
+        /* border: 2px solid red; */
+        font-size: 25px;
+        color: rgb(252,193,51);
+        width: 39%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 55px;
+    }
+
+    #ourmenu{
+        width: 26%;
+        margin-right: 160px;
+        margin-top: 50px;
+    }
+    
+    #ourmenu p{
+        text-align: center;
+        color: white;
+        font-weight: 750;
+        font-size: 20px;
+    }
+    
+    #specials p{
+        text-align: center;
+        color: white;
+        font-weight: 750;
+        font-size: 20px;
+    }
+    
+    #specials{
+        margin-left: 0px;
+    }
+    
+    #drinks p{
+        text-align: center;
+        color: white;
+        font-weight: 750;
+        font-size: 20px;
+    }
+    
+    #drinks{
+        margin-right: 0px;
+    }
+    
+    #specialsdrinks{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+
+    #background3{
+        background-image: url(../Nicepage_03/images/pexelsphoto842142.jpeg);
+        width: 100%;
+        height: 780px;
+        background-size: cover;
+        background-position: 88% 50%;
+    }
+    
+    #tastiestfood{
+        width: 80%;
+        color: white;
+        /* float: right; */
+        margin-right: 42px;
+        margin-top: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #tastiestfood > p:nth-child(1) {
+        font-size: 47px;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    
+    #tastiestfood > p:nth-child(2) {
+        font-size: 17px;
+        /* font-weight: 800; */
+        width: 92%;
+        /* float: right; */
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    #background4{
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(41,41,48);
+    }
+    
+    #fullplatereviews{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #fullplate{
+        border: 2px solid red;
+        width: 100%;
+        height: 50%;
+        background-image: url(../Nicepage_03/images/pexelsphoto2641886.jpeg);
+        background-size: cover;
+        background-position: 50% 100%;
+    }
+    
+    #reviews{
+        width: 70%;
+        height: 50%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #reviews >p:nth-child(1){
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 2.2;
+    }
+    
+    #reviews >p:nth-child(3){
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.7;
+    }
+    
+    #reviews >p:nth-child(4){
+        font-size: 20px;
+        line-height: 2.2;
+    }
+    
+    #reviews > i{
+        font-size: 53px;
+        color: rgb(252,193,51);
+        line-height: 1.5;
+    }
+    
+    #congingus{
+        width: 100%;
+        height: 44%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #contact{
+        width: 70%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    #contact > p:nth-child(1){
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    
+    #contact > p:nth-child(2){
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    #gingerbread{
+        width: 36%;
+        height: 30%;
+        background-image: url(../Nicepage_03/images/pexelsphoto262945.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-left: 10px;
+    }
+    
+    #contactus{
+        width: 80%;
+        height: 35%;
+        background-color: rgb(252,193,51);
+        float: right;
+        margin-right: 0px;
+    }
+    
+    #contactus > p:nth-child(1){
+        font-size: 33px;
+        font-weight: bold;
+        line-height: 2.1;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #contactus > p:nth-child(2){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #contactus > p:nth-child(3){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #contactus > p:nth-child(4){
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(51,51,51);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #footer a{
+        color: rgb(158,192,201);
     }
 }
 
