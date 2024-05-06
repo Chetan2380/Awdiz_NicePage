@@ -101,39 +101,43 @@
 
 #bluepink{
     width: 100%;
-    height: 3000px;
+    height: 1153px;
     border: 2px solid black;
     position: relative;
 }
 
 #blue{
     width: 100%;
-    height: 1100px;
+    height: 850px;
     /* border: 2px solid red; */
     background-color: rgb(42,49,102);
     position: relative;
 }
 
+#blue1{
+    display: none;
+}
+
 #winners{
     /* border: 2px solid red; */
     background-color: rgb(229,229,229);
-    width: 75%;
-    height: 400px;
+    width: 73%;
+    height: 380px;
     position: absolute;
     top: 0;
-    left: 257px;
+    left: 280px;
 }
 
 #winnersimage{
     /* border: 2px solid red; */
     background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg);
     width: 29%;
-    height: 400px;
+    height: 370px;
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 50%;
     position: absolute;
     top: 0;
-    left: 370px;
+    left: 400px;
 }
 
 #list{
@@ -141,7 +145,7 @@
     height: 170px;
     /* border: 2px solid red; */
     top: 130px;
-    left: 800px;
+    left: 760px;
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -154,13 +158,118 @@
 }
 
 #builddream{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
-    width: 24%;
-    height: 250px;
+    width: 27%;
+    height: 280px;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 80px;
+}
+
+#builddream p{
+    font-size: 45px;
+    padding-top: 45px;
+    padding-left: 30px;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+}
+
+#pink{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(244,171,170);
+    position: relative;
+}
+
+#creativestudio{
+    width: 39%;
+    height: 620px;
+    position: absolute;
+    top: 470px;
+    left: 50px;
+}
+
+#creativestudio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#creativestudiotext{
+    /* border: 2px solid red; */
+    width: 46%;
+    position: absolute;
+    top: 530px;
+    left: 490px;
+    color: white;
+}
+
+#creativestudiotext p:nth-child(1){
+    font-size: 45px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+#creativestudiotext p:nth-child(2){
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#developementbranding{
+    width:52%;
+    height: 330px;
+    background-color: white;
+    position: absolute;
+    top: 760px;
+    left: 454px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#developement{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+
+#developement img{
+    width: 37%;
+    height: 90px;
+    margin-top: 20px;
+}
+
+#developement p:nth-child(2){
+    font-size: 20px;
+    line-height: 2;
+}
+
+#developement p:nth-child(3){
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+#branding{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#branding img{
+    width: 33%;
+    height: 80px;
+}
+
+#branding p:nth-child(2){
+    font-size: 20px;
+    line-height: 2;
+}
+
+#branding p:nth-child(3){
+    line-height: 1.5;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 830px) and (max-width: 1039px) {
@@ -256,7 +365,179 @@
         margin-top: 50px;
         color: white;
     }
-    
+
+    #bluepink{
+    width: 100%;
+    height: 3000px;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+#blue{
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid red; */
+    background-color: rgb(42,49,102);
+    position: relative;
+}
+
+#blue1{
+    display: none;
+}
+
+#winners{
+    /* border: 2px solid red; */
+    background-color: rgb(229,229,229);
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 247px;
+}
+
+#winnersimage{
+    /* border: 2px solid red; */
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg);
+    width: 26%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+#list{
+    width: 21%;
+    height: 170px;
+    /* border: 2px solid red; */
+    top: 70px;
+    left: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+#list p{
+    font-size: 20px;
+}
+
+#builddream{
+    border: 2px solid red;
+    background-color: white;
+    width: 23%;
+    height: 210px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#builddream p{
+    font-size: 30px;
+    padding-top: 45px;
+    padding-left: 30px;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+}
+
+#pink{
+    width: 100%;
+    height: 1180px;
+    background-color: rgb(244,171,170);
+    position: relative;
+}
+
+#creativestudio{
+    width: 90%;
+    height: 1100px;
+    position: absolute;
+    top: 370px;
+    left: 40px;
+}
+
+#creativestudio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20% 50%;
+}
+
+#creativestudiotext{
+    /* border: 2px solid red; */
+    width: 80%;
+    position: absolute;
+    top: 1470px;
+    left: 70px;
+    color: white;
+}
+
+#creativestudiotext p:nth-child(1){
+    font-size: 45px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+#creativestudiotext p:nth-child(2){
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#developementbranding{
+    width:90%;
+    height: 260px;
+    background-color: white;
+    position: absolute;
+    top: 1660px;
+    left: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#developement{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#developement img{
+    width: 29%;
+    height: 90px;
+    margin-top: 20px;
+}
+
+#developement p:nth-child(2){
+    font-size: 20px;
+    line-height: 2;
+}
+
+#developement p:nth-child(3){
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+#branding{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#branding img{
+    width: 24%;
+    height: 80px;
+}
+
+#branding p:nth-child(2){
+    font-size: 20px;
+    line-height: 2;
+}
+
+#branding p:nth-child(3){
+    line-height: 1.5;
+    padding-top: 10px;
+}
 }
 
 
@@ -356,5 +637,183 @@
         text-align: center;
         margin-top: 50px;
         color: white;
+    }
+
+    #bluepink{
+        width: 100%;
+        height: 3000px;
+        /* border: 2px solid black; */
+        position: relative;
+    }
+    
+    #blue{
+        width: 100%;
+        height: 1800px;
+        /* border: 2px solid red; */
+        background-color: rgb(42,49,102);
+        position: relative;
+    }
+    
+    #blue1{
+        position: absolute;
+        top: 0;
+        width: 40%;
+        background-color: rgb(42,49,102);
+        height: 300px;
+        border: 2px solid yellow;
+    }
+    
+    #winners{
+        /* border: 2px solid red; */
+        background-color: rgb(229,229,229);
+        width: 100%;
+        height: 1080px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #winnersimage{
+        /* border: 2px solid red; */
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg);
+        width: 90%;
+        height: 300px;
+        background-size: cover;
+        background-position: 50% 50%;
+        position: absolute;
+        top: 400px;
+        left: 40px;
+    }
+    
+    #list{
+        width: 21%;
+        height: 170px;
+        /* border: 2px solid red; */
+        top: 70px;
+        left: 0px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #list p{
+        font-size: 20px;
+    }
+    
+    #builddream{
+        border: 2px solid red;
+        background-color: white;
+        width: 23%;
+        height: 210px;
+        position: absolute;
+        top: 30px;
+        left: 80px;
+    }
+    
+    #builddream p{
+        font-size: 30px;
+        padding-top: 45px;
+        padding-left: 30px;
+        line-height: 1.2;
+        font-family: Roboto, sans-serif;
+    }
+    
+    #pink{
+        width: 100%;
+        height: 1180px;
+        background-color: rgb(244,171,170);
+        position: relative;
+    }
+    
+    #creativestudio{
+        width: 90%;
+        height: 1100px;
+        position: absolute;
+        top: 670px;
+        left: 40px;
+    }
+    
+    #creativestudio img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 20% 50%;
+    }
+    
+    #creativestudiotext{
+        /* border: 2px solid red; */
+        width: 80%;
+        position: absolute;
+        top: 1470px;
+        left: 70px;
+        color: white;
+    }
+    
+    #creativestudiotext p:nth-child(1){
+        font-size: 45px;
+        line-height: 2;
+        font-weight: 600;
+    }
+    
+    #creativestudiotext p:nth-child(2){
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    #developementbranding{
+        width:90%;
+        height: 260px;
+        background-color: white;
+        position: absolute;
+        top: 1660px;
+        left: 45px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #developement{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #developement img{
+        width: 29%;
+        height: 90px;
+        margin-top: 20px;
+    }
+    
+    #developement p:nth-child(2){
+        font-size: 20px;
+        line-height: 2;
+    }
+    
+    #developement p:nth-child(3){
+        line-height: 1.5;
+        padding-top: 10px;
+    }
+    
+    #branding{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    #branding img{
+        width: 24%;
+        height: 80px;
+    }
+    
+    #branding p:nth-child(2){
+        font-size: 20px;
+        line-height: 2;
+    }
+    
+    #branding p:nth-child(3){
+        line-height: 1.5;
+        padding-top: 10px;
     }
 }
