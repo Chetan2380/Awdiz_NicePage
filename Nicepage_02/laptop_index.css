@@ -453,6 +453,98 @@
     background-position: 50% 50%;
 }
 
+#addphonetime{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(42,49,102);
+    position: relative;
+}
+
+#addphonetime1{
+    width: 72.6%;
+    height: 450px;
+    background-color: rgb(229,229,229);
+}
+
+#getintouch{
+    width: 26%;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    top: 80px;
+}
+
+#getintouch p{
+    font-size: 46px;
+    padding-top: 70px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#addimage{
+    /* border: 2px solid rebeccapurple; */
+    width: 30%;
+    height: 450px;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 325px;
+}
+
+#locphonetime{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#location{
+    width: 50%;
+}
+
+#location i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#location p{
+    line-height: 1.5;
+}
+
+#phonenumber{
+    width: 50%;
+    margin-top: 10px;
+}
+
+#phonenumber i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#phonenumber p{
+    line-height: 1.5;
+}
+
+#time{
+    width: 50%;
+    margin-top: 10px;
+}
+
+#time i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#time p{
+    line-height: 1.5;
+}
+
 @media screen and (min-width: 830px) and (max-width: 1039px) {
     #parentdiv{
         width: 830px;
@@ -853,6 +945,100 @@
     height: 430px;
     display: flex;
     flex-wrap: wrap;
+}
+
+#addphonetime{
+    width: 100%;
+    height: 490px;
+    background-color: rgb(42,49,102);
+    position: relative;
+}
+
+#addphonetime1{
+    width: 72.6%;
+    height: 490px;
+    background-color: rgb(229,229,229);
+}
+
+#getintouch{
+    width: 23%;
+    height: 220px;
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 80px;
+}
+
+#getintouch p{
+    font-size: 26px;
+    padding-top: 80px;
+    text-align: center;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#addimage{
+    /* border: 2px solid rebeccapurple; */
+    width: 30%;
+    height: 450px;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 275px;
+}
+
+#locphonetime{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#location{
+    width: 40%;
+}
+
+#location i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#location p{
+    line-height: 1.5;
+}
+
+#phonenumber{
+    width: 50%;
+    margin-top: 10px;
+}
+
+#phonenumber i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#phonenumber p{
+    line-height: 1.5;
+}
+
+#time{
+    width: 45%;
+    margin-top: 10px;
+}
+
+#time i{
+    color: rgb(42,49,102);
+    font-size: 36px;
+    line-height: 2;
+}
+
+#time p{
+    line-height: 1.5;
 }
 }
 
@@ -1268,7 +1454,7 @@
     }
 
     #siximages{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         height: 1920px;
     }
