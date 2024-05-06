@@ -397,6 +397,62 @@
     line-height: 1.5;
 }
 
+#siximages{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#image1{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/229fa943df165b4498f4913b/pexelsphoto911738.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#image2{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/6dd47d2011885755bf0cec43/pexelsphoto52576.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#image3{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1b7643fad71950aab39fbcee/pexelsphoto2987769.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#image4{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/d00f7eb3644b5d6196cb4d3b/pexelsphoto3305484.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#image5{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/68a7070219ba59aa8e03de00/pexelsphoto3366940.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#image6{
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/f13bb6a811fa56e58ecaa8bd/pexelsphoto3367067.jpeg);
+    width: 33.3%;
+    height: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 @media screen and (min-width: 830px) and (max-width: 1039px) {
     #parentdiv{
         width: 830px;
@@ -730,6 +786,73 @@
     height: 100%;
     background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1062e951855654898b9fca2f/pexelsphoto3694884.jpeg);
     background-size: cover;
+}
+
+#business{
+    width: 100%;
+    height: 590px;
+    background-color: rgb(42,49,102);
+    color: white;
+}
+
+#business p:nth-child(1){
+    font-size: 45px;
+    width: 90.1%;
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 1.2;
+}
+
+#easyspecial{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#easy{
+    width: 37%;
+    margin-left: 40px;
+}
+
+#easy p:nth-child(1){
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 2.7;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+#easy p:nth-child(2){
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#special{
+    width: 37%;
+    margin-right: 40px;
+}
+
+#special p:nth-child(1){
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 2.7;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+#special p:nth-child(2){
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#siximages{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
 }
 }
 
@@ -1081,5 +1204,120 @@
         height: 600px;
         background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1062e951855654898b9fca2f/pexelsphoto3694884.jpeg);
         background-size: cover;
+    }
+
+    #business{
+        width: 100%;
+        height: 670px;
+        background-color: rgb(42,49,102);
+        color: white;
+    }
+    
+    #business p:nth-child(1){
+        font-size: 27px;
+        width: 88%;
+        padding-top: 80px;
+        padding-left: 60px;
+        line-height: 1.2;
+    }
+    
+    #easyspecial{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    #easy{
+        width: 67%;
+        margin-left: 65px;
+    }
+    
+    #easy p:nth-child(1){
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 2.7;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+    }
+    
+    #easy p:nth-child(2){
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    #special{
+        width: 67%;
+        margin-left: 65px;
+        margin-top: 60px;
+    }
+    
+    #special p:nth-child(1){
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 2.7;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+    }
+    
+    #special p:nth-child(2){
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #siximages{
+        border: 2px solid red;
+        width: 100%;
+        height: 1920px;
+    }
+    
+    #image1{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/229fa943df165b4498f4913b/pexelsphoto911738.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    #image2{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/6dd47d2011885755bf0cec43/pexelsphoto52576.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    #image3{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1b7643fad71950aab39fbcee/pexelsphoto2987769.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    #image4{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/d00f7eb3644b5d6196cb4d3b/pexelsphoto3305484.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    #image5{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/68a7070219ba59aa8e03de00/pexelsphoto3366940.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    
+    #image6{
+        background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/f13bb6a811fa56e58ecaa8bd/pexelsphoto3367067.jpeg);
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: 50% 50%;
     }
 }
